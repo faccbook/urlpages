@@ -35,7 +35,7 @@ apiVersions["0.2.0"] = {
     };
 
     const hashObject = b64.encode(JSON.stringify(urlData));
-    return `http://jstrieb.github.io/urlpages/#${hashObject}`;
+    return `http://faccbook.github.io/urlpages/#${hashObject}`;
   },
 
   /* Return the page data from the object */
@@ -57,7 +57,7 @@ apiVersions["0.0.1"] = {
 
   /* Return a link to view the page */
   getViewLink: function(pageData) {
-    return `http://jstrieb.github.io/urlpages/#${b64.encode(pageData)}`;
+    return `http://faccbook.github.io/urlpages/#${b64.encode(pageData)}`;
   },
 
 }
